@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel ="stylesheet" href = "myportfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href ="#" class = "logo">My Portfolio</a>
+        <nav class = "navbar">
+            <a href ="#">Home</a>
+            <a href ="#">About</a>
+            <a href ="#">Skill</a>
+            <a href ="#">My Project</a>
+            <a href ="#">Contact</a>
+        </nav>
+    </header>
+    <!-- home section -->
+    <section class ="home">
+        
+        <div class = "home-content">
+        <h3> Hello, I am </h3>
+        <h1>Dipanshi Sharma</h1>
+        <h2>And I'm</h2>
+          <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: [ '<h2> Frontend-Developer.</h2>','<h2> have keen interest in Data Science. <h2>'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+<br>
+<br>
+<br>
+        <a href="#" class="btn-box">Hire Me</a>
+        </div>
+        <div class="image">
+            <img src="dsharma.jpeg" height="300px">
+        </div>
+        
+    </section>
+    <script src="main.js"></script>
+    <!-- About section -->
+    <section class="about">
+        <div class="about-img">
+            <img src="deep.jpeg" height="350px">
+        </div>
+        <div class="about-text">
+            <h1>About Me</h1>
+            <h2>I'm Dipanshi Sharma, <br>
+                a frontend developer.<BR>
+                I'm self-motivated, passionate
+                 and always eager to learn new technology.<br>
+                 I have keen interest in the field of Data science. <BR>
+                 I have skills in C++,Python and SQL.</h2>
+                 <a href="dipanshi_sharma (1).pdf" class="cv">Download CV</a>
+        </div>
+    </section>
+    <!-- skill section -->
+    <section class="skill">
+        <div class="container">
+            <div class="topic"><b>My Skills</b></div>
+            <div class="skill-box">
+                <span class="title"><i class='bx bxl-html5'style="color:red;"></i> HTML</span>
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                        <span class="tooltip">90%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title"><i class='bx bxl-css3'style="color:blue;"></i>CSS</span>
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title"><i class='bx bxl-javascript' style="color:pink;"></i>JavaScript</span>
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                        <span class="tooltip">50%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title"><i class='bx bxl-nodejs'style="color:green;" ></i>NodeJS</span>
+                <div class="skill-bar">
+                    <span class="skill-per nodejs">
+                        <span class="tooltip">30%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title"><i class='bx bxl-python'style="color:yellow;" ></i>Python</span>
+                <div class="skill-bar">
+                    <span class="skill-per python">
+                        <span class="tooltip">50%</span>
+                    </span>
+        </div>
+        
+        </section>
+    <!-- project section -->
+    
+    <section class="project">
+       
+        <div class="myproject">
+            <div><b>My Project</b></div>
+            <br>
+            <a href="https://github.com/dipanshi2610/netflix" style="color:white">
+                <img src="Net.jpg" alt="random-image">
+            <h2>Netflix clone</h2></a>
+        </div>
+            <div class="weather">
+            <a href="https://github.com/dipanshi2610/weather" style="color:white">
+                <img src="https://i.pinimg.com/originals/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.png" alt="random-image">
+            <h2>Weather clone</h2></a>
+            </div>
+                
+                <div class="SCP">
+                    <a href="https://github.com/dipanshi2610/STONE-PAPER-SCISSOR" style="color:white">
+                        <img src="https://wallpapercave.com/wp/wp8121945.jpg" alt="random-image">
+                    <h2>Game</h2></a>
+                    </div>
+                    <div class="qrcode">
+                        <a href="https://github.com/dipanshi2610/QR-CODE-GENRATOR" style="color:white">
+                            <img src="QRCODE.png" alt="random-image">
+                        <h2>QR GENERATOR</h2></a>
+                        </div>
+    </section>
+    <!-- <contact section> -->
+    <section class="contact">
+        <div class="contact-me">
+        <h1>–Contact Me–</h1>
+  
+        <br>
+         <div>
+            <h2>Message Me:- </h2><br>
+          <h3>Mobile Number:</h3> <br>
+          <input type="Number" placeholder="Enter No.">
+    
+          <h3>Email Id:-</h3><br>
+          <textarea type="text" placeholder="Enter Id." row="4" colps="60"></textarea>
+          <br>
+          <h3>Message Here:-</h3>
+          <br>
+          
+          <textarea type="text" placeholder="Enter message" row="5" colps="100"> </textarea>
+           </div>
+           <p class="submit">
+            <a href="#">Submit</a></p>
+        </div>
+        
+        <div class ="project-sci">
+            <h2>–My Info–</h2>
+            <h3>📞Phone No.</h3>
+            <br>
+            <h4>→ 8307571313</h4>
+            <br>
+            <h3>✉️Email Id:</h3>
+            <br>
+            <h4>→ dipanshivashisth26@gmail.com</h4> <br>
+            
+            <h3>🏠Address:</h3><BR>
+            <h4>→ Vill. Uleta, distt. Nuh</h4>
+            <a href="https://www.linkedin.com/in/dipanshi-sharma-70b7a6274/"><i class='bx bxl-linkedin' ></i></a>
+            <a href ="#https://www.instagram.com/its_sharmaji26/?hl=en"><i class='bx bxl-instagram' ></i>
+            <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+            
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        // Animate skill bars with JavaScript
+        const skillBars = document.querySelectorAll(".skill-bar-fill");
+        
+        skillBars.forEach(skillBar => {
+            const targetWidth = skillBar.getAttribute("data-width");
+            skillBar.style.width = targetWidth + "%";
+
+            // Add a delay for the animation effect
+            setTimeout(() => {
+                skillBar.style.transition = "width 1s ease-in-out";
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
